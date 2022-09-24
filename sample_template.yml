@@ -11,5 +11,5 @@ resources:
       
 
 jobs:
-- template: parameter_templates.yml@andriod_templates
+- template: sample_template.yml@template_test_repo
   
