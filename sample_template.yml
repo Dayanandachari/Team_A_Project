@@ -1,6 +1,7 @@
 
 pool:
-  vmImage: 'macOS-latest'
+  vmImage: 'macOS-latest' 
+  
   
 resources: 
   repositories: 
@@ -12,3 +13,4 @@ resources:
 
 jobs:
 - template: parameter_templates.yml@andriod_templates
+  
