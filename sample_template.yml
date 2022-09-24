@@ -8,7 +8,7 @@ resources:
     - repository: andriod_templates
       type: github
       name: Dayanandachari/andriod_templates
-      endpoint: https://github.com/Dayanandachari/andriod_templates/blob/main/parameter_templates.yml
+      endpoint: https://github.com/Dayanandachari/andriod_templates.git
 
 
 jobs:
