@@ -1,2 +1,10 @@
 
-
+pool:
+  vmImage: 'macOS-latest'
+  
+resources: 
+  repositores: 
+    - repository: andriod_templates
+      type: github
+      name:andriod_templates/parameter_templates.yml
+      endpoint:github.com
