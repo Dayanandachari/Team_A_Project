@@ -5,8 +5,8 @@ pool:
   
 resources: 
   repositories: 
-    - repository: andriod_templates
-      type: github
+    - repository: template_test_repo
+      type: git
       name: Dayanandachari/andriod_templates
       endpoint: https://github.com/Dayanandachari/andriod_templates.git
 
