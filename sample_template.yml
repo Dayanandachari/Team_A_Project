@@ -3,7 +3,7 @@ pool:
   vmImage: 'macOS-latest'
   
 resources: 
-  repositores: 
+  repositories: 
     - repository: andriod_templates
       type: github
       name: Dayanandachari/andriod_templates
