@@ -7,9 +7,8 @@ resources:
   repositories: 
     - repository: template_test_repo
       type: git
-      name: Dayanandachari/andriod_templates
-      endpoint: https://github.com/Dayanandachari/andriod_templates.git
-
+      name: template_test_repo
+      
 
 jobs:
 - template: parameter_templates.yml@andriod_templates
