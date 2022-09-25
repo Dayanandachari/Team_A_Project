@@ -1,14 +1,6 @@
 
 pool:
   vmImage: 'macOS-latest' 
-  
-  
-resources: 
-  repositories: 
-    - repository: template_test_repo
-      type: git
-      name: template_test_repo
-      
 
 jobs:
 - job: 
