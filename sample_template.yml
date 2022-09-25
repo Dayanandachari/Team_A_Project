@@ -13,6 +13,6 @@ resources:
 jobs:
 - job: 
   steps:
-    - template: template_test_repo/sample_template.yml
+    - template: sample_template.yml
 
   
