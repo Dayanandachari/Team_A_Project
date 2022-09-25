@@ -11,5 +11,8 @@ resources:
       
 
 jobs:
+- job: 
+  steps:
+    - template: 
 - template: sample_template.yml@template_test_repo
   
