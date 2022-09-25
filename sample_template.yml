@@ -2,6 +2,12 @@
 pool:
   vmImage: 'macOS-latest' 
 
+resources: 
+  repositories: 
+    - repository: template_test_repo
+      type: github
+      name: template_test_repo/andriod_templates
+      endpoint: https://dayanandacharikv@dev.azure.com/dayanandacharikv/Team_A_Project/_git/template_test_repo
 
       
 jobs:
