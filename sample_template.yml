@@ -11,14 +11,16 @@ resources:
       name: Dayanandachari/andriod_templates
       endpoint: 'Dayanandachari'
 
-jobs:
-- template: parameter_templates.yml@andriod_templates
-  parameters:
-    employeename: '$(first_name)'
+jobs: 
+- job: employeename
+  steps: 
+  - template: parameter_templates.yml@andriod_templates
+    parameters:
+      employeename: '$(first_name)'
 
-## - template: parameter_templates.yml@andriod_templates
-##  parameters:
-##   employeename: '$(second_name)'
+  - template: parameter_templates.yml@andriod_templates
+    parameters:
+      employeename: '$(second_name)'
         
 
   
