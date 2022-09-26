@@ -1,5 +1,5 @@
 parameters: 
-- name: employessname 
+- name: employeename 
   default: 'daya'
 
 jobs: 
