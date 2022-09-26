@@ -6,7 +6,7 @@ resources:
     - repository: andriod_templates
       type: github
       name: Dayanandachari/andriod_templates
-      endpoint: github.com
+      endpoint: 'Dayanandachari'
 
 jobs:
 - template: parameter_templates.yml@andriod_templates
