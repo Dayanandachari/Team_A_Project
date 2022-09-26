@@ -1,11 +1,10 @@
 
-   
+trigger: none
+
 jobs:
-- job: 
-  steps:
-    - template: test_template.yml
-      parameters:
-        employessname: 'anad'
+- template: test_template.yml
+  parameters:
+    employessname: 'anad'  
         
 
   
