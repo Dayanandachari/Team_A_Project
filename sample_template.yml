@@ -3,6 +3,6 @@
 jobs:
 - job: 
   steps:
-    - template: Team_A_Project/test_template.yml
+    - template: test_template.yml
 
   
