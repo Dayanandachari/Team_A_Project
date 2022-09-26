@@ -1,0 +1,9 @@
+parameters: 
+- name: employessname 
+  default: 'daya"
+
+
+jobs: 
+- job: ${{ parameters.employeename}}
+  steps:
+  - script: echo hello world ${{ parameters.employeename}}
