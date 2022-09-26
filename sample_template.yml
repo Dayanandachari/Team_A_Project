@@ -1,12 +1,19 @@
 
 trigger: none
 
+resources: 
+  repositories: 
+    - repository: andriod_templates
+      type: github
+      name: Dayanandachari/andriod_templates
+      endpoint: github.com
+
 jobs:
-- template: test_template.yml
+- template: andriod_templates/parameter_templates.yml
   parameters:
     employeename: 'daya'  
 
-- template: test_template.yml
+- template: andriod_templates/parameter_templates.yml
   parameters:
     employeename: 'anad'  
         
