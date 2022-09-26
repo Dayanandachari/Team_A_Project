@@ -14,11 +14,11 @@ resources:
 jobs:
 - template: parameter_templates.yml@andriod_templates
   parameters:
-    employeename: 'daya'  
+    employeename: ${{parameters.firstname}} 
 
 - template: parameter_templates.yml@andriod_templates
   parameters:
-    employeename: 'anad'  
+    employeename: ${{parameters.secondname}} 
         
 
   
