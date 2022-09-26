@@ -1,6 +1,9 @@
 
 trigger: none
 
+variables:
+- group: 'Andriod_variable_group'
+
 resources: 
   repositories: 
     - repository: andriod_templates
