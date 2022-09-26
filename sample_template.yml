@@ -4,11 +4,11 @@ trigger: none
 jobs:
 - template: test_template.yml
   parameters:
-    employessname: 'daya'  
+    employeename: 'daya'  
 
 - template: test_template.yml
   parameters:
-    employessname: 'anad'  
+    employeename: 'anad'  
         
 
   
