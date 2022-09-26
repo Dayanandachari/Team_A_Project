@@ -9,11 +9,11 @@ resources:
       endpoint: github.com
 
 jobs:
-- template: andriod_templates/parameter_templates.yml
+- template: parameter_templates.yml@andriod_templates
   parameters:
     employeename: 'daya'  
 
-- template: andriod_templates/parameter_templates.yml
+- template: parameter_templates.yml@andriod_templates
   parameters:
     employeename: 'anad'  
         
