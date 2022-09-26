@@ -1,17 +1,8 @@
 
-pool:
-  vmImage: 'macOS-latest' 
-
-resources: 
-  repositories: 
-    - repository: template_test_repo
-      type: git
-      name: template_test_repo
-
-      
+   
 jobs:
 - job: 
   steps:
-    - template: template_test_repo/sample_template.yml
+    - template: Team_A_Project/test_template.yml
 
   
