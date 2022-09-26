@@ -5,6 +5,10 @@ jobs:
 - template: test_template.yml
   parameters:
     employessname: 'daya'  
+
+- template: test_template.yml
+  parameters:
+    employessname: 'anad'  
         
 
   
